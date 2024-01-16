@@ -40,10 +40,12 @@
     "@stdlib/complex-base-assert-is-equalf": "github:stdlib-js/complex-base-assert-is-equalf#main",
     "@stdlib/complex-base-assert-is-not-equal": "github:stdlib-js/complex-base-assert-is-not-equal#main",
     "@stdlib/complex-base-assert-is-not-equalf": "github:stdlib-js/complex-base-assert-is-not-equalf#main",
+    "@stdlib/complex-base-assert-is-same-value": "github:stdlib-js/complex-base-assert-is-same-value#main",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
+    "@stdlib/assert-is-same-value": "^0.1.1",
     "@stdlib/complex-float32": "^0.1.1",
     "@stdlib/complex-float64": "^0.1.1",
     "@stdlib/complex-reim": "^0.1.1",
