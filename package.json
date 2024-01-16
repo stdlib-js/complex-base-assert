@@ -38,6 +38,8 @@
   "dependencies": {
     "@stdlib/complex-base-assert-is-equal": "github:stdlib-js/complex-base-assert-is-equal#main",
     "@stdlib/complex-base-assert-is-equalf": "github:stdlib-js/complex-base-assert-is-equalf#main",
+    "@stdlib/complex-base-assert-is-not-equal": "github:stdlib-js/complex-base-assert-is-not-equal#main",
+    "@stdlib/complex-base-assert-is-not-equalf": "github:stdlib-js/complex-base-assert-is-not-equalf#main",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
