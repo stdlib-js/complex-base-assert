@@ -42,6 +42,7 @@
     "@stdlib/complex-base-assert-is-not-equalf": "^0.1.0",
     "@stdlib/complex-base-assert-is-same-value": "^0.1.0",
     "@stdlib/complex-base-assert-is-same-value-zero": "github:stdlib-js/complex-base-assert-is-same-value-zero#main",
+    "@stdlib/complex-base-assert-is-same-value-zerof": "github:stdlib-js/complex-base-assert-is-same-value-zerof#main",
     "@stdlib/complex-base-assert-is-same-valuef": "github:stdlib-js/complex-base-assert-is-same-valuef#main",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
@@ -56,6 +57,7 @@
     "@stdlib/constants-float64-ninf": "^0.1.1",
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/number-float32-base-assert-is-same-value": "github:stdlib-js/number-float32-base-assert-is-same-value#main",
+    "@stdlib/number-float32-base-assert-is-same-value-zero": "github:stdlib-js/number-float32-base-assert-is-same-value-zero#main",
     "@stdlib/number-float64-base-assert-is-same-value": "^0.1.0",
     "@stdlib/number-float64-base-assert-is-same-value-zero": "github:stdlib-js/number-float64-base-assert-is-same-value-zero#main",
     "@stdlib/random-base-randu": "^0.1.0",
