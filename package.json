@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base-assert",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Base complex number assert functions.",
   "license": "Apache-2.0",
   "author": {
@@ -36,11 +36,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-base-assert-is-equal": "github:stdlib-js/complex-base-assert-is-equal#main",
-    "@stdlib/complex-base-assert-is-equalf": "github:stdlib-js/complex-base-assert-is-equalf#main",
-    "@stdlib/complex-base-assert-is-not-equal": "github:stdlib-js/complex-base-assert-is-not-equal#main",
-    "@stdlib/complex-base-assert-is-not-equalf": "github:stdlib-js/complex-base-assert-is-not-equalf#main",
-    "@stdlib/complex-base-assert-is-same-value": "github:stdlib-js/complex-base-assert-is-same-value#main",
+    "@stdlib/complex-base-assert-is-equal": "^0.1.0",
+    "@stdlib/complex-base-assert-is-equalf": "^0.1.0",
+    "@stdlib/complex-base-assert-is-not-equal": "^0.1.0",
+    "@stdlib/complex-base-assert-is-not-equalf": "^0.1.0",
+    "@stdlib/complex-base-assert-is-same-value": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
