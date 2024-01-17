@@ -42,7 +42,8 @@
     "@stdlib/complex-base-assert-is-not-equalf": "^0.1.0",
     "@stdlib/complex-base-assert-is-same-value": "^0.1.0",
     "@stdlib/complex-base-assert-is-same-valuef": "github:stdlib-js/complex-base-assert-is-same-valuef#main",
-    "@stdlib/utils-define-read-only-property": "^0.1.1"
+    "@stdlib/utils-define-read-only-property": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
