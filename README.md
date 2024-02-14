@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-base-assert/tags). For example,
+
+```javascript
 import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isEqual, isEqualf, isNotEqual, isNotEqualf, isSameValue, isSameValueZero, isSameValueZerof, isSameValuef } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@v0.2.0-esm/index.mjs';
+import { isEqual, isEqualf, isNotEqual, isNotEqualf, isSameValue, isSameValueZero, isSameValueZerof, isSameValuef } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@esm/index.mjs';
 ```
 
 #### assert
@@ -106,7 +111,7 @@ The namespace contains the following functions:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@v0.2.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
