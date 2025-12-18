@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2024 The Stdlib Authors.
+Copyright (c) 2025 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -33,45 +33,39 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Base complex number assert functions.
+> Base (i.e., lower-level) complex number assertion functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/complex-base-assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-assert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var assert = require( 'path/to/vendor/umd/complex-base-assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.assert;
-})();
-</script>
+var assert = require( '@stdlib/complex-base-assert' );
 ```
 
 #### assert
 
-Namespace containing "base" complex number assert functions.
+Namespace containing base (i.e., lower-level) complex number assertion functions.
 
 ```javascript
 var ns = assert;
@@ -84,14 +78,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`isEqual( z1, z2 )`][@stdlib/complex/base/assert/is-equal]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are equal.</span>
--   <span class="signature">[`isEqualf( z1, z2 )`][@stdlib/complex/base/assert/is-equalf]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are equal.</span>
--   <span class="signature">[`isNotEqual( z1, z2 )`][@stdlib/complex/base/assert/is-not-equal]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are not equal.</span>
--   <span class="signature">[`isNotEqualf( z1, z2 )`][@stdlib/complex/base/assert/is-not-equalf]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are not equal.</span>
--   <span class="signature">[`isSameValueZero( z1, z2 )`][@stdlib/complex/base/assert/is-same-value-zero]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are the same value.</span>
--   <span class="signature">[`isSameValueZerof( z1, z2 )`][@stdlib/complex/base/assert/is-same-value-zerof]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are the same value.</span>
--   <span class="signature">[`isSameValue( z1, z2 )`][@stdlib/complex/base/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are the same value.</span>
--   <span class="signature">[`isSameValuef( z1, z2 )`][@stdlib/complex/base/assert/is-same-valuef]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are the same value.</span>
+-   <span class="signature">[`isAlmostEqual( z1, z2, maxULP )`][@stdlib/complex/base/assert/is-almost-equal]</span><span class="delimiter">: </span><span class="description">test whether two complex numbers are approximately equal within a specified number of ULPs (units in the last place).</span>
 
 </div>
 
@@ -117,21 +104,11 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/complex-base-assert' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -172,7 +149,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -220,21 +197,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/complex/base/assert/is-equal]: https://github.com/stdlib-js/complex-base-assert-is-equal/tree/umd
-
-[@stdlib/complex/base/assert/is-equalf]: https://github.com/stdlib-js/complex-base-assert-is-equalf/tree/umd
-
-[@stdlib/complex/base/assert/is-not-equal]: https://github.com/stdlib-js/complex-base-assert-is-not-equal/tree/umd
-
-[@stdlib/complex/base/assert/is-not-equalf]: https://github.com/stdlib-js/complex-base-assert-is-not-equalf/tree/umd
-
-[@stdlib/complex/base/assert/is-same-value-zero]: https://github.com/stdlib-js/complex-base-assert-is-same-value-zero/tree/umd
-
-[@stdlib/complex/base/assert/is-same-value-zerof]: https://github.com/stdlib-js/complex-base-assert-is-same-value-zerof/tree/umd
-
-[@stdlib/complex/base/assert/is-same-value]: https://github.com/stdlib-js/complex-base-assert-is-same-value/tree/umd
-
-[@stdlib/complex/base/assert/is-same-valuef]: https://github.com/stdlib-js/complex-base-assert-is-same-valuef/tree/umd
+[@stdlib/complex/base/assert/is-almost-equal]: https://github.com/stdlib-js/complex-base-assert-is-almost-equal
 
 <!-- </toc-links> -->
 
