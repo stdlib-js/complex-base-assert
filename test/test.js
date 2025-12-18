@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -35,6 +35,6 @@ tape( 'main export is an object', function test( t ) {
 
 tape( 'the exported object contains key-value pairs', function test( t ) {
 	var keys = objectKeys( ns );
-	t.equal( keys.length > 0, true, 'has keys' );
+	t.strictEqual( keys.length > 0, true, 'has keys' );
 	t.end();
 });

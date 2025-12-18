@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2024 The Stdlib Authors.
+Copyright (c) 2025 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Base complex number assert functions.
+> Base (i.e., lower-level) complex number assertion functions.
 
 <section class="installation">
 
@@ -65,7 +65,7 @@ var assert = require( '@stdlib/complex-base-assert' );
 
 #### assert
 
-Namespace containing "base" complex number assert functions.
+Namespace containing base (i.e., lower-level) complex number assertion functions.
 
 ```javascript
 var ns = assert;
@@ -78,14 +78,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`isEqual( z1, z2 )`][@stdlib/complex/base/assert/is-equal]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are equal.</span>
--   <span class="signature">[`isEqualf( z1, z2 )`][@stdlib/complex/base/assert/is-equalf]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are equal.</span>
--   <span class="signature">[`isNotEqual( z1, z2 )`][@stdlib/complex/base/assert/is-not-equal]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are not equal.</span>
--   <span class="signature">[`isNotEqualf( z1, z2 )`][@stdlib/complex/base/assert/is-not-equalf]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are not equal.</span>
--   <span class="signature">[`isSameValueZero( z1, z2 )`][@stdlib/complex/base/assert/is-same-value-zero]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are the same value.</span>
--   <span class="signature">[`isSameValueZerof( z1, z2 )`][@stdlib/complex/base/assert/is-same-value-zerof]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are the same value.</span>
--   <span class="signature">[`isSameValue( z1, z2 )`][@stdlib/complex/base/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test whether two double-precision complex floating-point numbers are the same value.</span>
--   <span class="signature">[`isSameValuef( z1, z2 )`][@stdlib/complex/base/assert/is-same-valuef]</span><span class="delimiter">: </span><span class="description">test whether two single-precision complex floating-point numbers are the same value.</span>
+-   <span class="signature">[`isAlmostEqual( z1, z2, maxULP )`][@stdlib/complex/base/assert/is-almost-equal]</span><span class="delimiter">: </span><span class="description">test whether two complex numbers are approximately equal within a specified number of ULPs (units in the last place).</span>
 
 </div>
 
@@ -156,7 +149,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -204,21 +197,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/complex/base/assert/is-equal]: https://github.com/stdlib-js/complex-base-assert-is-equal
-
-[@stdlib/complex/base/assert/is-equalf]: https://github.com/stdlib-js/complex-base-assert-is-equalf
-
-[@stdlib/complex/base/assert/is-not-equal]: https://github.com/stdlib-js/complex-base-assert-is-not-equal
-
-[@stdlib/complex/base/assert/is-not-equalf]: https://github.com/stdlib-js/complex-base-assert-is-not-equalf
-
-[@stdlib/complex/base/assert/is-same-value-zero]: https://github.com/stdlib-js/complex-base-assert-is-same-value-zero
-
-[@stdlib/complex/base/assert/is-same-value-zerof]: https://github.com/stdlib-js/complex-base-assert-is-same-value-zerof
-
-[@stdlib/complex/base/assert/is-same-value]: https://github.com/stdlib-js/complex-base-assert-is-same-value
-
-[@stdlib/complex/base/assert/is-same-valuef]: https://github.com/stdlib-js/complex-base-assert-is-same-valuef
+[@stdlib/complex/base/assert/is-almost-equal]: https://github.com/stdlib-js/complex-base-assert-is-almost-equal
 
 <!-- </toc-links> -->
 
