@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e41ec1a`](https://github.com/stdlib-js/stdlib/commit/e41ec1a68b7da44d7258a1aa1a2ad31714c26b65) - update `complex/base/assert` TypeScript declarations [(#9198)](https://github.com/stdlib-js/stdlib/pull/9198)
 -   [`6e539e7`](https://github.com/stdlib-js/stdlib/commit/6e539e715f29950ccc8384337d91e2b2ebf678e7) - add `complex/base/assert` namespace
 -   [`95ee9a0`](https://github.com/stdlib-js/stdlib/commit/95ee9a0d45606e4b9c387366f36ba4fcea4adae5) - add `complex/base/assert/is-almost-same-value`
 -   [`d0857d0`](https://github.com/stdlib-js/stdlib/commit/d0857d0faf6a6718ff9cd002f99184a20ca89278) - add `complex/base/assert/is-almost-equal`
@@ -95,6 +96,7 @@
 
 <details>
 
+-   [`e41ec1a`](https://github.com/stdlib-js/stdlib/commit/e41ec1a68b7da44d7258a1aa1a2ad31714c26b65) - **feat:** update `complex/base/assert` TypeScript declarations [(#9198)](https://github.com/stdlib-js/stdlib/pull/9198) _(by stdlib-bot)_
 -   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
 -   [`6e539e7`](https://github.com/stdlib-js/stdlib/commit/6e539e715f29950ccc8384337d91e2b2ebf678e7) - **feat:** add `complex/base/assert` namespace _(by Athan Reines)_
 -   [`95ee9a0`](https://github.com/stdlib-js/stdlib/commit/95ee9a0d45606e4b9c387366f36ba4fcea4adae5) - **feat:** add `complex/base/assert/is-almost-same-value` _(by Athan Reines)_
