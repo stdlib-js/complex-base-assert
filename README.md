@@ -79,6 +79,7 @@ The namespace contains the following functions:
 <div class="namespace-toc">
 
 -   <span class="signature">[`isAlmostEqual( z1, z2, maxULP )`][@stdlib/complex/base/assert/is-almost-equal]</span><span class="delimiter">: </span><span class="description">test whether two complex numbers are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameValue( z1, z2, maxULP )`][@stdlib/complex/base/assert/is-almost-same-value]</span><span class="delimiter">: </span><span class="description">test whether two complex numbers are approximately the same value within a specified number of ULPs (units in the last place).</span>
 
 </div>
 
@@ -198,6 +199,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/complex/base/assert/is-almost-equal]: https://github.com/stdlib-js/complex-base-assert-is-almost-equal
+
+[@stdlib/complex/base/assert/is-almost-same-value]: https://github.com/stdlib-js/complex-base-assert-is-almost-same-value
 
 <!-- </toc-links> -->
 

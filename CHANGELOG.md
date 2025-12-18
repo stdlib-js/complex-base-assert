@@ -95,6 +95,7 @@
 
 <details>
 
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
 -   [`6e539e7`](https://github.com/stdlib-js/stdlib/commit/6e539e715f29950ccc8384337d91e2b2ebf678e7) - **feat:** add `complex/base/assert` namespace _(by Athan Reines)_
 -   [`95ee9a0`](https://github.com/stdlib-js/stdlib/commit/95ee9a0d45606e4b9c387366f36ba4fcea4adae5) - **feat:** add `complex/base/assert/is-almost-same-value` _(by Athan Reines)_
 -   [`de7678a`](https://github.com/stdlib-js/stdlib/commit/de7678a5abc59883ba8f0512c71bd0ceb352613b) - **test:** fix descriptions _(by Athan Reines)_
