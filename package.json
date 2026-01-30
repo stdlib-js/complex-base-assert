@@ -38,7 +38,8 @@
   "dependencies": {
     "@stdlib/complex-base-assert-is-almost-equal": "github:stdlib-js/complex-base-assert-is-almost-equal#main",
     "@stdlib/complex-base-assert-is-almost-same-value": "github:stdlib-js/complex-base-assert-is-almost-same-value#main",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
