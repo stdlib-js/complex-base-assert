@@ -1,0 +1,4 @@
+// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-only-property@v0.2.3-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-almost-equal@v0.1.1-esm/index.mjs";export{default as isAlmostEqual}from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-almost-equal@v0.1.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-almost-same-value@v0.1.1-esm/index.mjs";export{default as isAlmostSameValue}from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-almost-same-value@v0.1.1-esm/index.mjs";var l={};s(l,"isAlmostEqual",e),s(l,"isAlmostSameValue",t);export{l as default};
+//# sourceMappingURL=index.mjs.map
